@@ -20,11 +20,6 @@ npm i -g vercel
 vercel --prod
 ```
 
-## Before you deploy
-Search `index.html` for these placeholders and fill them in:
-- `{BUTTON NAME}` × 3 — which LED SETTING key fires the A+A, slide+camera and A+B scenes (WINDOWS WIRELESS and PP7 WIDE SCREEN are already filled in)
-- `{CONTACT EMAIL}` — where the "Send your pick" link should go
-
 ## Files
 - `index.html` — the whole site (CSS, JS and the test-pattern PNG are inline)
 - `vercel.json` — clean URLs and two security headers; optional
